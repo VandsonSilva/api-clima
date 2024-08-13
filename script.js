@@ -19,13 +19,13 @@ search.addEventListener('click', () => {
                 weatherBox.style.display = 'none'
                 weatherDetails.style.display = 'none'
                 error404.style.display = 'block'
-                error404.classList.add('fadeIn')
+                error404.classList.add('fade-in')
                 return
             }
-            console.log(json)
+            
         
             error404.style.display = 'none'
-            error404.classList.remove('fadeIn')
+            error404.classList.remove('fade-in')
                 
             const image = document.querySelector('.weather-box img');            
             const temperature = document.querySelector('.weather-box .temperature')
